@@ -30,4 +30,4 @@ ENV PATH="/app/.venv/bin:$PATH"
 ENTRYPOINT []
 
 # Run the application directly using the venv Python
-CMD ["python", "main.py"]
+CMD ["python", "src/character_counter/server.py"]
