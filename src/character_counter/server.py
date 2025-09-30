@@ -2,10 +2,13 @@ import os
 import uvicorn
 from mcp.server.fastmcp import FastMCP
 from starlette.middleware.cors import CORSMiddleware
-from tools.greetings import register_tools
+from tools import GreetingsTool, CalculatorTool
 
 mcp = FastMCP(name="Say Hello")
-register_tools(mcp)  # Registrar las herramientas
+
+# Registrar todas las herramientas
+GreetingsTool(mcp)
+CalculatorTool(mcp)
 
 def main():
     print("Say Hello MCP Server starting...")
