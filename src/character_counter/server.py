@@ -1,4 +1,3 @@
-
 import os
 import uvicorn
 from mcp.server.fastmcp import FastMCP
@@ -6,7 +5,8 @@ from starlette.middleware.cors import CORSMiddleware
 
 mcp = FastMCP(name="Say Hello")
 
-
+# Importar el módulo de herramientas DESPUÉS de crear la instancia mcp
+from ..tools import greetings  # o: from tools import greetings
 
 def main():
     print("Say Hello MCP Server starting...")
