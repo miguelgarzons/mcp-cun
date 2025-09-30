@@ -1,5 +1,7 @@
 # Character Counter MCP Server - Python Quickstart
 
+[![smithery badge](https://smithery.ai/badge/@miguelgarzons/mcp-cun)](https://smithery.ai/server/@miguelgarzons/mcp-cun)
+
 A simple example of creating an MCP server using FastMCP and Python, designed to work with Smithery.
 
 ## What This Does
