@@ -59,12 +59,14 @@ source = { editable = "." }
 dependencies = [
     { name = "mcp" },
     { name = "smithery" },
+    { name = "uvicorn" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "mcp", specifier = ">=1.14.1" },
     { name = "smithery", specifier = ">=0.2.4" },
+    { name = "uvicorn", specifier = ">=0.30.0" },
 ]
 
 [[package]]

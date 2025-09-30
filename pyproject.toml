@@ -11,6 +11,7 @@ requires-python = ">=3.12"
 dependencies = [
     "mcp>=1.14.1",
     "smithery>=0.2.4",
+    "uvicorn>=0.30.0",
 ]
 
 [project.scripts]
